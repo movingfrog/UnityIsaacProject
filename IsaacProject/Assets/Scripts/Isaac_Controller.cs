@@ -17,7 +17,7 @@ public class Isaac_Controller : Isaac_Stat
         bool isControl = (moveDirection != Vector2.zero);
         if (isControl)
         {
-            rb.MovePosition(rb.position + moveDirection * Time.deltaTime * Speed * 5.0f);
+            rb.velocity += moveDirection * Speed;
         }
     }
 

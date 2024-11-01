@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1198800506900894824}
   - component: {fileID: 2506154128862691571}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tear_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 8327158006322464056}
   - component: {fileID: 8435238309025860990}
   - component: {fileID: 3365284528907353049}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Isaacs_Tear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &8435238309025860990
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -248,7 +248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a699b50063bf7da4cb12e044e3a5e435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Instance: {fileID: 0}
 --- !u!1 &7849031395381347350
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5183469956260726944}
   - component: {fileID: 4673728063748206160}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tear_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1266492012685698846}
   - component: {fileID: 1169255270138958339}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tear_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

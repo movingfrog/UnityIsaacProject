@@ -17,21 +17,26 @@ public class Bomb : MonoBehaviour
     {
         child.SetActive(true);
 
-        child.GetComponent<SpriteRenderer>().color = Color.red;
+        child.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 0.55f);
+        gameObject.transform.localScale = new Vector3(1.2f, 1.0f, 1.0f);
         yield return new WaitForSeconds(boomTimeX5);
-        child.GetComponent<SpriteRenderer>().color = Color.white;
+        child.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.55f);
+        gameObject.transform.localScale = new Vector3(1.0f,1.2f, 1.0f);
         yield return new WaitForSeconds(boomTimeX5);
-        child.GetComponent<SpriteRenderer>().color = Color.yellow;
+        child.GetComponent<SpriteRenderer>().color = new Color(1, 0.92f, 0.016f, 0.55f);
+        gameObject.transform.localScale = new Vector3(1.2f, 1.0f, 1.0f);
         yield return new WaitForSeconds(boomTimeX5);
-        child.GetComponent<SpriteRenderer>().color = Color.red;
+        child.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 0.55f);
+        gameObject.transform.localScale = new Vector3(1.0f,1.2f, 1.0f);
         yield return new WaitForSeconds(boomTimeX5);
-        child.GetComponent<SpriteRenderer>().color = Color.white;
+        child.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.55f);
+        gameObject.transform.localScale = new Vector3(1.2f, 1.0f, 1.0f);
         yield return new WaitForSeconds(boomTimeX5);
-        kaBoom(Quaternion.identity);
-        Destroy(gameObject, 1.25f);
+        KaBoom();
+        Destroy(gameObject, 0.65f);
     }
 
-    public void kaBoom(Quaternion quaternion)
+    public void KaBoom()
     {
         particle.gameObject.SetActive(true);
         Collider2D[] collider = Physics2D.OverlapBoxAll(transform.position, new Vector2(1.8f,1.8f), 0);

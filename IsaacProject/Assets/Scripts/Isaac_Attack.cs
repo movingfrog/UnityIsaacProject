@@ -71,12 +71,16 @@ public class Isaac_Attack : Isaac_Stat
         Destroy(tears_C, Range / 2);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         currentPostion = transform.position;
         var dis = (currentPostion - oldPosition);
         velocity = dis / Time.deltaTime;
         oldPosition = currentPostion;
+    }
+
+    private void Update()
+    {
 
         if (colTime < compareColTime)
         {

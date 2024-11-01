@@ -5,9 +5,9 @@ using UnityEngine;
 
 public abstract class PickUp : MonoBehaviour
 {
-    protected int Penny;
-    protected int Bomb;
-    protected int Key;
+    public static int Penny;
+    public static int Bomb;
+    public static int Key;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

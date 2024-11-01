@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class PBomb : PickUp
 {
-    SpriteRenderer render;
     public GameObject child;
-
-    private void Awake()
-    {
-        render = GetComponent<SpriteRenderer>();
-    }
 
     protected override void PickUpItem()
     {
