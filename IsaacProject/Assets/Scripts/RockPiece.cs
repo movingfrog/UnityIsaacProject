@@ -33,9 +33,10 @@ public class RockPiece : MonoBehaviour
         rb.AddForce(-Vector2.up * gravity * speed * 0.5f);
         while(gameObject.GetComponent<SpriteRenderer>().color != new Color(0.4706f, 0.4706f, 0.4706f))
         {
+            float f = 0.05294f * 2.0f;
             Color sprite = gameObject.GetComponent<SpriteRenderer>().color;
-            gameObject.GetComponent<SpriteRenderer>().color = new Color(sprite.r - 0.05294f, sprite.g - 0.05294f, sprite.b - 0.05294f);
-            yield return new WaitForSeconds(time * 0.1f);
+            gameObject.GetComponent<SpriteRenderer>().color = new Color(sprite.r - f, sprite.g - f, sprite.b - f);
+            yield return new WaitForSeconds(time * 0.05f);
         }
         rb.velocity = Vector2.zero;
         Debug.Log("adfs");
