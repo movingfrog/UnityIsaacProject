@@ -209,7 +209,7 @@ Transform:
   m_GameObject: {fileID: 153167935}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4397755, y: -0.520986, z: 0.06229527}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -595,6 +595,7 @@ GameObject:
   - component: {fileID: 919220525}
   - component: {fileID: 919220524}
   - component: {fileID: 919220523}
+  - component: {fileID: 919220527}
   m_Layer: 7
   m_Name: Rock
   m_TagString: Wall
@@ -735,12 +736,26 @@ Transform:
   m_GameObject: {fileID: 919220522}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.65, y: -1.21, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &919220527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919220522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c41164f08bce734583587b4565c0493, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rockPicec: {fileID: 7059705525700364391, guid: bdfb525579d881b47a5754c9673d3ed0, type: 3}
+  CloneNum: 10
 --- !u!1 &993117646
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +941,7 @@ Transform:
   m_GameObject: {fileID: 993117646}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.09, y: 2.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
