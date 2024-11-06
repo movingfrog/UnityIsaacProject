@@ -28,15 +28,15 @@ public class RockPiece : MonoBehaviour
     IEnumerator Boom()
     {
         rb.AddForce(new Vector2(XForce, YForce) * speed);
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSeconds(time / (speed / 10));
         rb.velocity = Vector2.zero;
-        rb.AddForce(-Vector2.up * gravity * speed * 0.5f);
+        rb.AddForce(-Vector2.up * gravity * speed);
         while(gameObject.GetComponent<SpriteRenderer>().color != new Color(0.4706f, 0.4706f, 0.4706f))
         {
-            float f = 0.05294f * 2.0f;
+            float f = 0.05294f * 5.0f;
             Color sprite = gameObject.GetComponent<SpriteRenderer>().color;
             gameObject.GetComponent<SpriteRenderer>().color = new Color(sprite.r - f, sprite.g - f, sprite.b - f);
-            yield return new WaitForSeconds(time * 0.05f);
+            yield return new WaitForSeconds(time / (speed / 2));
         }
         rb.velocity = Vector2.zero;
         Debug.Log("adfs");

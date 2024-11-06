@@ -44,7 +44,7 @@ public class Bomb : MonoBehaviour
         {
             if (colliders.CompareTag("Wall"))
             {
-                Debug.Log("돌이 깨졌습니다");
+                Destroy(colliders.gameObject);
             }
             Debug.Log("100DMG");
         }

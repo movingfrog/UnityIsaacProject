@@ -16,8 +16,9 @@ public class Rock : MonoBehaviour
         {
             for (int i = 0; i < CloneNum; i++)
             {
-                GameObject Clone = Instantiate(rockPicec);
-                Clone.transform.localScale = new Vector3(0.7f - i * 0.1f, 0.7f - i * 0.1f, 1);
+                GameObject Clone = Instantiate(rockPicec, transform);
+                Clone.transform.localScale = new Vector3(0.5f - i * 0.2f, 0.5f - i * 0.2f, 1);
+                Clone.transform.SetParent(this.gameObject.GetComponentInParent<Transform>());
             }
         }
     }
@@ -26,8 +27,9 @@ public class Rock : MonoBehaviour
     {
         for(int i = 0;i<3;i++)
         {
-            GameObject Clone = Instantiate(rockPicec);
-            Clone.transform.localScale = new Vector3(0.7f - i * 0.1f, 0.7f - i * 0.1f, 1);
+            GameObject Clone = Instantiate(rockPicec, transform);
+            Clone.transform.localScale = new Vector3(0.5f - i * 0.2f, 0.5f - i * 0.2f, 1);
+            Clone.transform.SetParent(gameObject.GetComponentInParent<Transform>());
         }
     }
 }

@@ -98,10 +98,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfef1189a7f3dd438c3be95984f1a4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xForce: 10
-  yForce: 10
+  xForce: 7.5
+  yForce: 7.5
   gravity: 2
-  speed: 10
+  speed: 20
   time: 1
 --- !u!50 &6687247594489461204
 Rigidbody2D:

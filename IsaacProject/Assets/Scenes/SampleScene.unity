@@ -755,7 +755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rockPicec: {fileID: 7059705525700364391, guid: bdfb525579d881b47a5754c9673d3ed0, type: 3}
-  CloneNum: 10
+  CloneNum: 3
 --- !u!1 &993117646
 GameObject:
   m_ObjectHideFlags: 0
