@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Wall
+  - GChest
+  - Chest
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - Player
   - BreakableWall
   - UnBreakableWall
-  - 
-  - 
+  - Chest
+  - OpenedChest
   - 
   - 
   - 

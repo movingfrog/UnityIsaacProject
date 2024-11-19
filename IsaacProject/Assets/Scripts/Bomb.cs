@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bomb : MonoBehaviour
@@ -11,6 +12,15 @@ public class Bomb : MonoBehaviour
     private void Awake()
     {
         StartCoroutine(Boom());
+    }
+
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            gameObject.GetComponent<CircleCollider2D>().isTrigger = false;
+        }
     }
 
     IEnumerator Boom()

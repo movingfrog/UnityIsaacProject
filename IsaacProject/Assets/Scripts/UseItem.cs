@@ -15,4 +15,5 @@ public class UseItem : MonoBehaviour
             PickUp.Bomb--;
         }
     }
+
 }
