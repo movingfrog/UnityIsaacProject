@@ -56,7 +56,15 @@ public class Bomb : MonoBehaviour
             {
                 Destroy(colliders.gameObject);
             }
-            Debug.Log("100DMG");
+            if (colliders.CompareTag("Player"))
+            {
+                if (Isaac_Health.Health > 0)
+                    Isaac_Health.Health -= 2;
+                else
+                    Isaac_Health.redHealth -= 2;
+                Debug.Log(Isaac_Health.Health);
+                Debug.Log(Isaac_Health.redHealth);
+            }
         }
     }
 }

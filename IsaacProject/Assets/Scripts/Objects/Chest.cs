@@ -4,8 +4,8 @@ public enum PChest
 {
     K = 0,
     B = 1,
-    H = 2,
-    C = 3,
+    C = 2,
+    H = 3,
     CA = 4,
     Pil = 5,
     T = 6,
@@ -16,7 +16,6 @@ public class Chest : MonoBehaviour
 {
     public Sprite openedChest;
     public GameObject[] Items;
-    public LayerMask layer;
     PChest pChest = new PChest();
     int quantity;
     int Type;
@@ -25,22 +24,23 @@ public class Chest : MonoBehaviour
     private void Start()
     {
         GChest = gameObject.CompareTag("GChest");
-        if (GChest)
-            quantity = Random.Range(1, 8);
-        else
-            quantity = Random.Range(1, 5);
-        Type = Random.Range(1, 5);
+        quantity = GChest ? Random.Range(2, 8) : Random.Range(1, 5);
+        Type = Random.Range(1, GChest ? 5 : 4);
+
     }
     public void SpawnPItem(PChest Type)
     {
+        Debug.Log("아이템소환");
         switch (Type)
         {
             case PChest.I:
+                Destroy(gameObject.GetComponent<BoxCollider2D>());
                 break;
             default:
-                Instantiate(Items[(int)Type]);
-                gameObject.layer = layer;
-                gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+                //Instantiate(Items[(int)Type]);
+                Debug.Log("아이템소환");
+                gameObject.layer = 10;
+                Destroy(gameObject.GetComponent<BoxCollider2D>());
                 break;
         }
     }
@@ -65,6 +65,7 @@ public class Chest : MonoBehaviour
                     {
                         pChest = (PChest)Random.Range(0, 4);
                         SpawnPItem(pChest);
+                        Debug.Log("아이템소환");
                     }
                     break;
                 case 2:
@@ -73,17 +74,20 @@ public class Chest : MonoBehaviour
                     else
                         pChest = PChest.Pil;
                     SpawnPItem(pChest);
+                    Debug.Log("아이템소환");
                     break;
                 case 3:
                     pChest = PChest.T;
+                    SpawnPItem(pChest);
+                    Debug.Log("아이템소환");
                     break;
                 case 4:
-                    if (GChest)
-                    {
-                        pChest = PChest.I;
-                    }
+                    pChest = PChest.I;
+                    SpawnPItem(pChest);
+                    Debug.Log("아이템소환");
                     break;
             }
+            gameObject.GetComponent<SpriteRenderer>().sprite = openedChest;
         }
     }
 }

@@ -8,6 +8,9 @@ TagManager:
   - Wall
   - GChest
   - Chest
+  - RedHeart
+  - HalfHeart
+  - SoulHeart
   layers:
   - Default
   - TransparentFX

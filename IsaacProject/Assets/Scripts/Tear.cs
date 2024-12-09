@@ -23,7 +23,7 @@ public class Tear : Isaac_Stat
 
         currentPostion = transform.position;
         var dis = (currentPostion - oldPosition);
-        velocity = dis / Time.deltaTime;
+        velocity = dis / Time.deltaTime;        
         oldPosition = currentPostion;
     }
 
