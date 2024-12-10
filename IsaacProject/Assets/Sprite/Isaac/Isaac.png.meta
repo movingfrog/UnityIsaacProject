@@ -1,0 +1,1573 @@
+fileFormatVersion: 2
+guid: c1295a7fe15f6d74cb3ae535f43bdebd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b279970ca7422543adb954dbdae3703
+      internalID: -697817196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07af3fac96942554299b18f7d52eb148
+      internalID: 1317629174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5b18fe8bb23c8448f0d5e1fad258ac
+      internalID: -1518343519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c8ed65ba7111a4698ee58e59c8ff7c
+      internalID: 1761229491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_16
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfeea4c8eb04f740b4e28631b524653
+      internalID: 496417949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b59ebf51687014aa7770bebcdf2dba
+      internalID: -910351111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026f50f216cc7b748ad1fbf1baf52368
+      internalID: 1999804810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_19
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3475b6ebedf2afa46aff5b4e423f2be6
+      internalID: 1620924227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_39
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bcf5856f85f444e9e7fe9186422e88
+      internalID: 1941982639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_40
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3391cf216645a7498391f2eff01e64a
+      internalID: 122541244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b1c47995e348949b5a5b97ed2d4452
+      internalID: -911218039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_42
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 855
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e09e0bfc5a0df44fac8393d0d01f956
+      internalID: 1301475706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_43
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 856
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9415e1debd20af147ad230a1f85f3501
+      internalID: -1241233422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_44
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd6499098c51e74bb1b766df5f936dc
+      internalID: 1487057758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_45
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c749062704e6a4a813ca2c9dcdb53f
+      internalID: 531415108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_46
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89282450d00dd34a818c470fc8c3de0
+      internalID: -56918378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 855
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb6fc2d64ae62846b19742019e05872
+      internalID: 951481723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_48
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 856
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c580741989c2e40a7accbef144ef94
+      internalID: 963045323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 814
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6560c9e870c9049b5250a22abf03e2
+      internalID: -1461781366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7eb871f3b167d4cb35c2cf60f3dc56
+      internalID: 1865512396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_74
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 814
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87670311fbdffa44192ee5f5c3163183
+      internalID: 1489825886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_75
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 814
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77190c205e89724e8caa09d90652aed
+      internalID: 236201020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_76
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 814
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33344bd9fec77941be705e47f049878
+      internalID: -553411759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_77
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c217e9254ea484a86465f3cd0de014
+      internalID: 1490741711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_78
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a641883d2db887f4da0f63fe7ed3c73e
+      internalID: 571717342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_79
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 814
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab83dbf5e7c95d846a8c436598a5f20b
+      internalID: -281660037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_80
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 814
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85c8bd93db33fd419be8e83cb0d75b5
+      internalID: -1669844010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_81
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 814
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbb9bb431970704394bc41e22702855
+      internalID: 512852597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_108
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 751
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fb67737a236e446a5f95e24faca43a
+      internalID: 262575816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_109
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 754
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06ef7d87635cd146baa1f86c0ae2b96
+      internalID: -355089117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_110
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 752
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8638104afe88184caa8e1a9f1d80f79
+      internalID: 770655675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_111
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 753
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ec342bf759e354c8bcb4c27080ffe9
+      internalID: 1307256022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_168
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 688
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef0da93af43c4d499016734c7fbff9e
+      internalID: 1880985492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_169
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 688
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20276a605531396489bddc0c6cfae5e8
+      internalID: -1596414183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_170
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 686
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b816dbe8e42487e40a52716d8cb7b51b
+      internalID: 665477185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_171
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 688
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccf915a9176e2843a33ba95ef49cd2b
+      internalID: 1073885566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_183
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 627
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104bfd4a7c889454ea93c2e448414659
+      internalID: -749120008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_184
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 629
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdb35cfa8c040347a68b85f5b10b2ae
+      internalID: -4816806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_185
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 623
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6e34acc1b6c284eac86d0adc605ada
+      internalID: 1704186243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_499
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 22
+        width: 14
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5aa5393a085694c856e026ad31097c
+      internalID: 2086479201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_500
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 93
+        width: 98
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96de3be70bcf3be4c981a756fe287275
+      internalID: -1715473546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_501
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 40
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25548dd0ce4e3be4893c847674440a44
+      internalID: -1925064487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_502
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 46
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b8619a08fc41e4eab9ce6500a69391
+      internalID: -489266679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_504
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 12
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd3cb52cf4a63e4b9020e6afeca6bd8
+      internalID: 1480621042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Isaac_0: -1304234498
+      PC Computer - The Binding of Isaac Rebirth - Isaac_0: -406487420
+      PC Computer - The Binding of Isaac Rebirth - Isaac_1: -810103544
+      PC Computer - The Binding of Isaac Rebirth - Isaac_10: 1289110504
+      PC Computer - The Binding of Isaac Rebirth - Isaac_100: 296554836
+      PC Computer - The Binding of Isaac Rebirth - Isaac_101: 203239409
+      PC Computer - The Binding of Isaac Rebirth - Isaac_102: -1898945214
+      PC Computer - The Binding of Isaac Rebirth - Isaac_103: 1533808059
+      PC Computer - The Binding of Isaac Rebirth - Isaac_104: -1071015633
+      PC Computer - The Binding of Isaac Rebirth - Isaac_105: 1008297389
+      PC Computer - The Binding of Isaac Rebirth - Isaac_106: 1378445032
+      PC Computer - The Binding of Isaac Rebirth - Isaac_107: 2030799263
+      PC Computer - The Binding of Isaac Rebirth - Isaac_108: 262575816
+      PC Computer - The Binding of Isaac Rebirth - Isaac_109: -355089117
+      PC Computer - The Binding of Isaac Rebirth - Isaac_11: -328291557
+      PC Computer - The Binding of Isaac Rebirth - Isaac_110: 770655675
+      PC Computer - The Binding of Isaac Rebirth - Isaac_111: 1307256022
+      PC Computer - The Binding of Isaac Rebirth - Isaac_112: 741500492
+      PC Computer - The Binding of Isaac Rebirth - Isaac_113: 1471741277
+      PC Computer - The Binding of Isaac Rebirth - Isaac_114: 1051266676
+      PC Computer - The Binding of Isaac Rebirth - Isaac_115: -194391175
+      PC Computer - The Binding of Isaac Rebirth - Isaac_116: -1121065016
+      PC Computer - The Binding of Isaac Rebirth - Isaac_117: 718075276
+      PC Computer - The Binding of Isaac Rebirth - Isaac_118: 138385275
+      PC Computer - The Binding of Isaac Rebirth - Isaac_119: 2054580104
+      PC Computer - The Binding of Isaac Rebirth - Isaac_12: -697817196
+      PC Computer - The Binding of Isaac Rebirth - Isaac_120: 438406549
+      PC Computer - The Binding of Isaac Rebirth - Isaac_121: 2040964489
+      PC Computer - The Binding of Isaac Rebirth - Isaac_122: 780719004
+      PC Computer - The Binding of Isaac Rebirth - Isaac_123: 1543213123
+      PC Computer - The Binding of Isaac Rebirth - Isaac_124: -1466762866
+      PC Computer - The Binding of Isaac Rebirth - Isaac_125: 1227959182
+      PC Computer - The Binding of Isaac Rebirth - Isaac_126: 634860682
+      PC Computer - The Binding of Isaac Rebirth - Isaac_127: 642534377
+      PC Computer - The Binding of Isaac Rebirth - Isaac_128: -377979534
+      PC Computer - The Binding of Isaac Rebirth - Isaac_129: 1603980947
+      PC Computer - The Binding of Isaac Rebirth - Isaac_13: 1317629174
+      PC Computer - The Binding of Isaac Rebirth - Isaac_130: -2126350476
+      PC Computer - The Binding of Isaac Rebirth - Isaac_131: 1101370350
+      PC Computer - The Binding of Isaac Rebirth - Isaac_132: -1877043781
+      PC Computer - The Binding of Isaac Rebirth - Isaac_133: -1317825909
+      PC Computer - The Binding of Isaac Rebirth - Isaac_134: 1788679620
+      PC Computer - The Binding of Isaac Rebirth - Isaac_135: 1125285015
+      PC Computer - The Binding of Isaac Rebirth - Isaac_136: 1200249479
+      PC Computer - The Binding of Isaac Rebirth - Isaac_137: 771872923
+      PC Computer - The Binding of Isaac Rebirth - Isaac_138: 227883177
+      PC Computer - The Binding of Isaac Rebirth - Isaac_139: 1519800418
+      PC Computer - The Binding of Isaac Rebirth - Isaac_14: -1518343519
+      PC Computer - The Binding of Isaac Rebirth - Isaac_140: -1352059852
+      PC Computer - The Binding of Isaac Rebirth - Isaac_141: -544450032
+      PC Computer - The Binding of Isaac Rebirth - Isaac_142: -120502067
+      PC Computer - The Binding of Isaac Rebirth - Isaac_143: -127015763
+      PC Computer - The Binding of Isaac Rebirth - Isaac_144: -418595336
+      PC Computer - The Binding of Isaac Rebirth - Isaac_145: 1837002865
+      PC Computer - The Binding of Isaac Rebirth - Isaac_146: -281548056
+      PC Computer - The Binding of Isaac Rebirth - Isaac_147: -181470376
+      PC Computer - The Binding of Isaac Rebirth - Isaac_148: -1975937812
+      PC Computer - The Binding of Isaac Rebirth - Isaac_149: -543066302
+      PC Computer - The Binding of Isaac Rebirth - Isaac_15: 1761229491
+      PC Computer - The Binding of Isaac Rebirth - Isaac_150: -899676453
+      PC Computer - The Binding of Isaac Rebirth - Isaac_151: 1967771708
+      PC Computer - The Binding of Isaac Rebirth - Isaac_152: 7433467
+      PC Computer - The Binding of Isaac Rebirth - Isaac_153: -1303539928
+      PC Computer - The Binding of Isaac Rebirth - Isaac_154: 726984173
+      PC Computer - The Binding of Isaac Rebirth - Isaac_155: 1054269256
+      PC Computer - The Binding of Isaac Rebirth - Isaac_156: -1881608068
+      PC Computer - The Binding of Isaac Rebirth - Isaac_157: 635738692
+      PC Computer - The Binding of Isaac Rebirth - Isaac_158: -451014554
+      PC Computer - The Binding of Isaac Rebirth - Isaac_159: 1243993755
+      PC Computer - The Binding of Isaac Rebirth - Isaac_16: 496417949
+      PC Computer - The Binding of Isaac Rebirth - Isaac_160: -112798932
+      PC Computer - The Binding of Isaac Rebirth - Isaac_161: -978713799
+      PC Computer - The Binding of Isaac Rebirth - Isaac_162: 289611264
+      PC Computer - The Binding of Isaac Rebirth - Isaac_163: 946136262
+      PC Computer - The Binding of Isaac Rebirth - Isaac_164: 169653376
+      PC Computer - The Binding of Isaac Rebirth - Isaac_165: -1935222948
+      PC Computer - The Binding of Isaac Rebirth - Isaac_166: 647025170
+      PC Computer - The Binding of Isaac Rebirth - Isaac_167: 810680501
+      PC Computer - The Binding of Isaac Rebirth - Isaac_168: 1880985492
+      PC Computer - The Binding of Isaac Rebirth - Isaac_169: -1596414183
+      PC Computer - The Binding of Isaac Rebirth - Isaac_17: -910351111
+      PC Computer - The Binding of Isaac Rebirth - Isaac_170: 665477185
+      PC Computer - The Binding of Isaac Rebirth - Isaac_171: 1073885566
+      PC Computer - The Binding of Isaac Rebirth - Isaac_172: -591929639
+      PC Computer - The Binding of Isaac Rebirth - Isaac_173: 725544136
+      PC Computer - The Binding of Isaac Rebirth - Isaac_174: 486002182
+      PC Computer - The Binding of Isaac Rebirth - Isaac_175: -391691872
+      PC Computer - The Binding of Isaac Rebirth - Isaac_176: 1648576139
+      PC Computer - The Binding of Isaac Rebirth - Isaac_177: -2025767037
+      PC Computer - The Binding of Isaac Rebirth - Isaac_178: -480035431
+      PC Computer - The Binding of Isaac Rebirth - Isaac_179: -1486092827
+      PC Computer - The Binding of Isaac Rebirth - Isaac_18: 1999804810
+      PC Computer - The Binding of Isaac Rebirth - Isaac_180: -1016629686
+      PC Computer - The Binding of Isaac Rebirth - Isaac_181: 1387110644
+      PC Computer - The Binding of Isaac Rebirth - Isaac_182: 1789431688
+      PC Computer - The Binding of Isaac Rebirth - Isaac_183: -749120008
+      PC Computer - The Binding of Isaac Rebirth - Isaac_184: -4816806
+      PC Computer - The Binding of Isaac Rebirth - Isaac_185: 1704186243
+      PC Computer - The Binding of Isaac Rebirth - Isaac_186: 1494573963
+      PC Computer - The Binding of Isaac Rebirth - Isaac_187: -1744027557
+      PC Computer - The Binding of Isaac Rebirth - Isaac_188: 1534029707
+      PC Computer - The Binding of Isaac Rebirth - Isaac_189: 938285036
+      PC Computer - The Binding of Isaac Rebirth - Isaac_19: 1620924227
+      PC Computer - The Binding of Isaac Rebirth - Isaac_190: -203932030
+      PC Computer - The Binding of Isaac Rebirth - Isaac_191: 1648417318
+      PC Computer - The Binding of Isaac Rebirth - Isaac_192: 425081690
+      PC Computer - The Binding of Isaac Rebirth - Isaac_193: 22038905
+      PC Computer - The Binding of Isaac Rebirth - Isaac_194: 1172149314
+      PC Computer - The Binding of Isaac Rebirth - Isaac_195: 908463180
+      PC Computer - The Binding of Isaac Rebirth - Isaac_196: -1040154449
+      PC Computer - The Binding of Isaac Rebirth - Isaac_197: -547073165
+      PC Computer - The Binding of Isaac Rebirth - Isaac_198: 2109341556
+      PC Computer - The Binding of Isaac Rebirth - Isaac_199: 1177660867
+      PC Computer - The Binding of Isaac Rebirth - Isaac_2: 807053605
+      PC Computer - The Binding of Isaac Rebirth - Isaac_20: -815019037
+      PC Computer - The Binding of Isaac Rebirth - Isaac_200: -136724829
+      PC Computer - The Binding of Isaac Rebirth - Isaac_201: -85067612
+      PC Computer - The Binding of Isaac Rebirth - Isaac_202: -1453787697
+      PC Computer - The Binding of Isaac Rebirth - Isaac_203: -1632207600
+      PC Computer - The Binding of Isaac Rebirth - Isaac_204: -1948235001
+      PC Computer - The Binding of Isaac Rebirth - Isaac_205: 1465972374
+      PC Computer - The Binding of Isaac Rebirth - Isaac_206: -1585859386
+      PC Computer - The Binding of Isaac Rebirth - Isaac_207: 2034823162
+      PC Computer - The Binding of Isaac Rebirth - Isaac_208: 1541164362
+      PC Computer - The Binding of Isaac Rebirth - Isaac_209: 1246514814
+      PC Computer - The Binding of Isaac Rebirth - Isaac_21: -1410695997
+      PC Computer - The Binding of Isaac Rebirth - Isaac_210: -589589108
+      PC Computer - The Binding of Isaac Rebirth - Isaac_211: 1052846057
+      PC Computer - The Binding of Isaac Rebirth - Isaac_212: 798708597
+      PC Computer - The Binding of Isaac Rebirth - Isaac_213: -723132793
+      PC Computer - The Binding of Isaac Rebirth - Isaac_214: -1390771958
+      PC Computer - The Binding of Isaac Rebirth - Isaac_215: -860024175
+      PC Computer - The Binding of Isaac Rebirth - Isaac_216: -1985132068
+      PC Computer - The Binding of Isaac Rebirth - Isaac_217: 1110173849
+      PC Computer - The Binding of Isaac Rebirth - Isaac_218: 943109315
+      PC Computer - The Binding of Isaac Rebirth - Isaac_219: -710264854
+      PC Computer - The Binding of Isaac Rebirth - Isaac_22: -861855967
+      PC Computer - The Binding of Isaac Rebirth - Isaac_220: 2008001551
+      PC Computer - The Binding of Isaac Rebirth - Isaac_221: -443854002
+      PC Computer - The Binding of Isaac Rebirth - Isaac_222: -745862567
+      PC Computer - The Binding of Isaac Rebirth - Isaac_223: 647717023
+      PC Computer - The Binding of Isaac Rebirth - Isaac_224: 1301218022
+      PC Computer - The Binding of Isaac Rebirth - Isaac_225: -1038380207
+      PC Computer - The Binding of Isaac Rebirth - Isaac_226: 1860159900
+      PC Computer - The Binding of Isaac Rebirth - Isaac_227: 593614242
+      PC Computer - The Binding of Isaac Rebirth - Isaac_228: 352992783
+      PC Computer - The Binding of Isaac Rebirth - Isaac_229: -1881444152
+      PC Computer - The Binding of Isaac Rebirth - Isaac_23: 4582680
+      PC Computer - The Binding of Isaac Rebirth - Isaac_230: 1828150732
+      PC Computer - The Binding of Isaac Rebirth - Isaac_231: -1582539133
+      PC Computer - The Binding of Isaac Rebirth - Isaac_232: -1315316453
+      PC Computer - The Binding of Isaac Rebirth - Isaac_233: -499308295
+      PC Computer - The Binding of Isaac Rebirth - Isaac_234: -347649995
+      PC Computer - The Binding of Isaac Rebirth - Isaac_235: 381103357
+      PC Computer - The Binding of Isaac Rebirth - Isaac_236: 1825226261
+      PC Computer - The Binding of Isaac Rebirth - Isaac_237: 684958621
+      PC Computer - The Binding of Isaac Rebirth - Isaac_238: -392987656
+      PC Computer - The Binding of Isaac Rebirth - Isaac_239: -384123690
+      PC Computer - The Binding of Isaac Rebirth - Isaac_24: 79665373
+      PC Computer - The Binding of Isaac Rebirth - Isaac_240: -1686754121
+      PC Computer - The Binding of Isaac Rebirth - Isaac_241: 1208458808
+      PC Computer - The Binding of Isaac Rebirth - Isaac_242: 579467588
+      PC Computer - The Binding of Isaac Rebirth - Isaac_243: -273193060
+      PC Computer - The Binding of Isaac Rebirth - Isaac_244: 1232282474
+      PC Computer - The Binding of Isaac Rebirth - Isaac_245: -908771087
+      PC Computer - The Binding of Isaac Rebirth - Isaac_246: -2032766111
+      PC Computer - The Binding of Isaac Rebirth - Isaac_247: -8259106
+      PC Computer - The Binding of Isaac Rebirth - Isaac_248: 1105987394
+      PC Computer - The Binding of Isaac Rebirth - Isaac_249: -2036539938
+      PC Computer - The Binding of Isaac Rebirth - Isaac_25: -961535414
+      PC Computer - The Binding of Isaac Rebirth - Isaac_250: -530694105
+      PC Computer - The Binding of Isaac Rebirth - Isaac_251: -152938807
+      PC Computer - The Binding of Isaac Rebirth - Isaac_252: -1147036299
+      PC Computer - The Binding of Isaac Rebirth - Isaac_253: -1254024641
+      PC Computer - The Binding of Isaac Rebirth - Isaac_254: -1923985047
+      PC Computer - The Binding of Isaac Rebirth - Isaac_255: -1019718791
+      PC Computer - The Binding of Isaac Rebirth - Isaac_256: 1783621894
+      PC Computer - The Binding of Isaac Rebirth - Isaac_257: -1769050479
+      PC Computer - The Binding of Isaac Rebirth - Isaac_258: 613693937
+      PC Computer - The Binding of Isaac Rebirth - Isaac_259: -1623015277
+      PC Computer - The Binding of Isaac Rebirth - Isaac_26: -333715456
+      PC Computer - The Binding of Isaac Rebirth - Isaac_260: -1030101643
+      PC Computer - The Binding of Isaac Rebirth - Isaac_261: -2074839161
+      PC Computer - The Binding of Isaac Rebirth - Isaac_262: 1615891755
+      PC Computer - The Binding of Isaac Rebirth - Isaac_263: -1707731029
+      PC Computer - The Binding of Isaac Rebirth - Isaac_264: 41323079
+      PC Computer - The Binding of Isaac Rebirth - Isaac_265: 1027167976
+      PC Computer - The Binding of Isaac Rebirth - Isaac_266: 219070938
+      PC Computer - The Binding of Isaac Rebirth - Isaac_267: -663627421
+      PC Computer - The Binding of Isaac Rebirth - Isaac_268: -302227506
+      PC Computer - The Binding of Isaac Rebirth - Isaac_269: 2060690202
+      PC Computer - The Binding of Isaac Rebirth - Isaac_27: -900598198
+      PC Computer - The Binding of Isaac Rebirth - Isaac_270: -1950221163
+      PC Computer - The Binding of Isaac Rebirth - Isaac_271: 1322946512
+      PC Computer - The Binding of Isaac Rebirth - Isaac_272: 876359282
+      PC Computer - The Binding of Isaac Rebirth - Isaac_273: -115605118
+      PC Computer - The Binding of Isaac Rebirth - Isaac_274: 1469606571
+      PC Computer - The Binding of Isaac Rebirth - Isaac_275: 1729983298
+      PC Computer - The Binding of Isaac Rebirth - Isaac_276: -29848139
+      PC Computer - The Binding of Isaac Rebirth - Isaac_277: -52179796
+      PC Computer - The Binding of Isaac Rebirth - Isaac_278: 352941560
+      PC Computer - The Binding of Isaac Rebirth - Isaac_279: -1473755267
+      PC Computer - The Binding of Isaac Rebirth - Isaac_28: -1960612742
+      PC Computer - The Binding of Isaac Rebirth - Isaac_280: -710852278
+      PC Computer - The Binding of Isaac Rebirth - Isaac_281: -60355854
+      PC Computer - The Binding of Isaac Rebirth - Isaac_282: -1512534607
+      PC Computer - The Binding of Isaac Rebirth - Isaac_283: 2005248784
+      PC Computer - The Binding of Isaac Rebirth - Isaac_284: 405427380
+      PC Computer - The Binding of Isaac Rebirth - Isaac_285: 1634877745
+      PC Computer - The Binding of Isaac Rebirth - Isaac_286: 426034904
+      PC Computer - The Binding of Isaac Rebirth - Isaac_287: 472376613
+      PC Computer - The Binding of Isaac Rebirth - Isaac_288: 1043210167
+      PC Computer - The Binding of Isaac Rebirth - Isaac_289: -2125281308
+      PC Computer - The Binding of Isaac Rebirth - Isaac_29: 1516678278
+      PC Computer - The Binding of Isaac Rebirth - Isaac_290: -1613912312
+      PC Computer - The Binding of Isaac Rebirth - Isaac_291: -60231942
+      PC Computer - The Binding of Isaac Rebirth - Isaac_292: 1984418419
+      PC Computer - The Binding of Isaac Rebirth - Isaac_293: 1320855147
+      PC Computer - The Binding of Isaac Rebirth - Isaac_294: 323262471
+      PC Computer - The Binding of Isaac Rebirth - Isaac_295: 2048418911
+      PC Computer - The Binding of Isaac Rebirth - Isaac_296: 1221004863
+      PC Computer - The Binding of Isaac Rebirth - Isaac_297: 1281490523
+      PC Computer - The Binding of Isaac Rebirth - Isaac_298: 1039204094
+      PC Computer - The Binding of Isaac Rebirth - Isaac_299: -562632813
+      PC Computer - The Binding of Isaac Rebirth - Isaac_3: -75442905
+      PC Computer - The Binding of Isaac Rebirth - Isaac_30: 125854715
+      PC Computer - The Binding of Isaac Rebirth - Isaac_300: -632185795
+      PC Computer - The Binding of Isaac Rebirth - Isaac_301: -920614943
+      PC Computer - The Binding of Isaac Rebirth - Isaac_302: -448739570
+      PC Computer - The Binding of Isaac Rebirth - Isaac_303: 1760723736
+      PC Computer - The Binding of Isaac Rebirth - Isaac_304: 2020359724
+      PC Computer - The Binding of Isaac Rebirth - Isaac_305: 716230771
+      PC Computer - The Binding of Isaac Rebirth - Isaac_306: 1017707777
+      PC Computer - The Binding of Isaac Rebirth - Isaac_307: 1261201564
+      PC Computer - The Binding of Isaac Rebirth - Isaac_308: -1189688873
+      PC Computer - The Binding of Isaac Rebirth - Isaac_309: 300115949
+      PC Computer - The Binding of Isaac Rebirth - Isaac_31: -1938996156
+      PC Computer - The Binding of Isaac Rebirth - Isaac_310: -283972679
+      PC Computer - The Binding of Isaac Rebirth - Isaac_311: 1002381488
+      PC Computer - The Binding of Isaac Rebirth - Isaac_312: 17948633
+      PC Computer - The Binding of Isaac Rebirth - Isaac_313: -666781852
+      PC Computer - The Binding of Isaac Rebirth - Isaac_314: -1799710581
+      PC Computer - The Binding of Isaac Rebirth - Isaac_315: -511950459
+      PC Computer - The Binding of Isaac Rebirth - Isaac_316: 2093178145
+      PC Computer - The Binding of Isaac Rebirth - Isaac_317: 1529371105
+      PC Computer - The Binding of Isaac Rebirth - Isaac_318: -1919001443
+      PC Computer - The Binding of Isaac Rebirth - Isaac_319: 1509153308
+      PC Computer - The Binding of Isaac Rebirth - Isaac_32: -342479654
+      PC Computer - The Binding of Isaac Rebirth - Isaac_320: 877775294
+      PC Computer - The Binding of Isaac Rebirth - Isaac_321: -188516473
+      PC Computer - The Binding of Isaac Rebirth - Isaac_322: 745323684
+      PC Computer - The Binding of Isaac Rebirth - Isaac_323: -732763980
+      PC Computer - The Binding of Isaac Rebirth - Isaac_324: 1249408224
+      PC Computer - The Binding of Isaac Rebirth - Isaac_325: -837104810
+      PC Computer - The Binding of Isaac Rebirth - Isaac_326: -881272091
+      PC Computer - The Binding of Isaac Rebirth - Isaac_327: 1030198982
+      PC Computer - The Binding of Isaac Rebirth - Isaac_328: -2048199016
+      PC Computer - The Binding of Isaac Rebirth - Isaac_329: -1428452131
+      PC Computer - The Binding of Isaac Rebirth - Isaac_33: -1569474576
+      PC Computer - The Binding of Isaac Rebirth - Isaac_330: -2044491069
+      PC Computer - The Binding of Isaac Rebirth - Isaac_331: 1099128001
+      PC Computer - The Binding of Isaac Rebirth - Isaac_332: -351566521
+      PC Computer - The Binding of Isaac Rebirth - Isaac_333: -277340530
+      PC Computer - The Binding of Isaac Rebirth - Isaac_334: -983593577
+      PC Computer - The Binding of Isaac Rebirth - Isaac_335: 217062508
+      PC Computer - The Binding of Isaac Rebirth - Isaac_336: -146588110
+      PC Computer - The Binding of Isaac Rebirth - Isaac_337: 669117685
+      PC Computer - The Binding of Isaac Rebirth - Isaac_338: -648178333
+      PC Computer - The Binding of Isaac Rebirth - Isaac_339: -1370464159
+      PC Computer - The Binding of Isaac Rebirth - Isaac_34: 440225328
+      PC Computer - The Binding of Isaac Rebirth - Isaac_340: 223472635
+      PC Computer - The Binding of Isaac Rebirth - Isaac_341: 214642542
+      PC Computer - The Binding of Isaac Rebirth - Isaac_342: -620618077
+      PC Computer - The Binding of Isaac Rebirth - Isaac_343: -69678284
+      PC Computer - The Binding of Isaac Rebirth - Isaac_344: -2094629646
+      PC Computer - The Binding of Isaac Rebirth - Isaac_345: -1411021535
+      PC Computer - The Binding of Isaac Rebirth - Isaac_346: 1638031572
+      PC Computer - The Binding of Isaac Rebirth - Isaac_347: -661253788
+      PC Computer - The Binding of Isaac Rebirth - Isaac_348: -503828718
+      PC Computer - The Binding of Isaac Rebirth - Isaac_349: -1989575688
+      PC Computer - The Binding of Isaac Rebirth - Isaac_35: 589449165
+      PC Computer - The Binding of Isaac Rebirth - Isaac_350: 368076486
+      PC Computer - The Binding of Isaac Rebirth - Isaac_351: 1467968364
+      PC Computer - The Binding of Isaac Rebirth - Isaac_352: 1824709929
+      PC Computer - The Binding of Isaac Rebirth - Isaac_353: -1744579163
+      PC Computer - The Binding of Isaac Rebirth - Isaac_354: -735135198
+      PC Computer - The Binding of Isaac Rebirth - Isaac_355: 1172879114
+      PC Computer - The Binding of Isaac Rebirth - Isaac_356: 1719385872
+      PC Computer - The Binding of Isaac Rebirth - Isaac_357: 1084541002
+      PC Computer - The Binding of Isaac Rebirth - Isaac_358: -1775286972
+      PC Computer - The Binding of Isaac Rebirth - Isaac_359: 2146891204
+      PC Computer - The Binding of Isaac Rebirth - Isaac_36: -739813851
+      PC Computer - The Binding of Isaac Rebirth - Isaac_360: -1504908466
+      PC Computer - The Binding of Isaac Rebirth - Isaac_361: -939913456
+      PC Computer - The Binding of Isaac Rebirth - Isaac_362: -1876842027
+      PC Computer - The Binding of Isaac Rebirth - Isaac_363: 740625208
+      PC Computer - The Binding of Isaac Rebirth - Isaac_364: 43200490
+      PC Computer - The Binding of Isaac Rebirth - Isaac_365: 1180086358
+      PC Computer - The Binding of Isaac Rebirth - Isaac_366: 142656133
+      PC Computer - The Binding of Isaac Rebirth - Isaac_367: -24005101
+      PC Computer - The Binding of Isaac Rebirth - Isaac_368: 1305185844
+      PC Computer - The Binding of Isaac Rebirth - Isaac_369: 1798860297
+      PC Computer - The Binding of Isaac Rebirth - Isaac_37: 1257604628
+      PC Computer - The Binding of Isaac Rebirth - Isaac_370: 1265006062
+      PC Computer - The Binding of Isaac Rebirth - Isaac_371: -530758963
+      PC Computer - The Binding of Isaac Rebirth - Isaac_372: -635751846
+      PC Computer - The Binding of Isaac Rebirth - Isaac_373: -2033384245
+      PC Computer - The Binding of Isaac Rebirth - Isaac_374: 284253613
+      PC Computer - The Binding of Isaac Rebirth - Isaac_375: 372572638
+      PC Computer - The Binding of Isaac Rebirth - Isaac_376: 1435998265
+      PC Computer - The Binding of Isaac Rebirth - Isaac_377: -204019286
+      PC Computer - The Binding of Isaac Rebirth - Isaac_378: 2126719218
+      PC Computer - The Binding of Isaac Rebirth - Isaac_379: 1798445343
+      PC Computer - The Binding of Isaac Rebirth - Isaac_38: -1733134908
+      PC Computer - The Binding of Isaac Rebirth - Isaac_380: -188758351
+      PC Computer - The Binding of Isaac Rebirth - Isaac_381: -890523790
+      PC Computer - The Binding of Isaac Rebirth - Isaac_382: 683145101
+      PC Computer - The Binding of Isaac Rebirth - Isaac_383: 1502792161
+      PC Computer - The Binding of Isaac Rebirth - Isaac_384: -41330243
+      PC Computer - The Binding of Isaac Rebirth - Isaac_385: 1083133767
+      PC Computer - The Binding of Isaac Rebirth - Isaac_386: 1433987816
+      PC Computer - The Binding of Isaac Rebirth - Isaac_387: 1533892966
+      PC Computer - The Binding of Isaac Rebirth - Isaac_388: 2039923427
+      PC Computer - The Binding of Isaac Rebirth - Isaac_389: -1057337203
+      PC Computer - The Binding of Isaac Rebirth - Isaac_39: 1941982639
+      PC Computer - The Binding of Isaac Rebirth - Isaac_390: -1038754046
+      PC Computer - The Binding of Isaac Rebirth - Isaac_391: -278366903
+      PC Computer - The Binding of Isaac Rebirth - Isaac_392: 1076009693
+      PC Computer - The Binding of Isaac Rebirth - Isaac_393: 1088869189
+      PC Computer - The Binding of Isaac Rebirth - Isaac_394: -1310261710
+      PC Computer - The Binding of Isaac Rebirth - Isaac_395: -1577294838
+      PC Computer - The Binding of Isaac Rebirth - Isaac_396: -1811116315
+      PC Computer - The Binding of Isaac Rebirth - Isaac_397: 55582672
+      PC Computer - The Binding of Isaac Rebirth - Isaac_398: -120833463
+      PC Computer - The Binding of Isaac Rebirth - Isaac_399: 1070425891
+      PC Computer - The Binding of Isaac Rebirth - Isaac_4: -935082945
+      PC Computer - The Binding of Isaac Rebirth - Isaac_40: 122541244
+      PC Computer - The Binding of Isaac Rebirth - Isaac_400: 1148146479
+      PC Computer - The Binding of Isaac Rebirth - Isaac_401: 1958417199
+      PC Computer - The Binding of Isaac Rebirth - Isaac_402: 1057563965
+      PC Computer - The Binding of Isaac Rebirth - Isaac_403: -1199108494
+      PC Computer - The Binding of Isaac Rebirth - Isaac_404: 132436965
+      PC Computer - The Binding of Isaac Rebirth - Isaac_405: 1237363968
+      PC Computer - The Binding of Isaac Rebirth - Isaac_406: 1205537630
+      PC Computer - The Binding of Isaac Rebirth - Isaac_407: 35612466
+      PC Computer - The Binding of Isaac Rebirth - Isaac_408: 752754390
+      PC Computer - The Binding of Isaac Rebirth - Isaac_409: -1564561217
+      PC Computer - The Binding of Isaac Rebirth - Isaac_41: -911218039
+      PC Computer - The Binding of Isaac Rebirth - Isaac_410: -165414589
+      PC Computer - The Binding of Isaac Rebirth - Isaac_411: 1728691108
+      PC Computer - The Binding of Isaac Rebirth - Isaac_412: 1434497164
+      PC Computer - The Binding of Isaac Rebirth - Isaac_413: -723021838
+      PC Computer - The Binding of Isaac Rebirth - Isaac_414: 1149127892
+      PC Computer - The Binding of Isaac Rebirth - Isaac_415: 2068902956
+      PC Computer - The Binding of Isaac Rebirth - Isaac_416: 2065740877
+      PC Computer - The Binding of Isaac Rebirth - Isaac_417: -1744872792
+      PC Computer - The Binding of Isaac Rebirth - Isaac_418: -925657322
+      PC Computer - The Binding of Isaac Rebirth - Isaac_419: -699865505
+      PC Computer - The Binding of Isaac Rebirth - Isaac_42: 1301475706
+      PC Computer - The Binding of Isaac Rebirth - Isaac_420: 659026757
+      PC Computer - The Binding of Isaac Rebirth - Isaac_421: 1509044003
+      PC Computer - The Binding of Isaac Rebirth - Isaac_422: -1479643569
+      PC Computer - The Binding of Isaac Rebirth - Isaac_423: 1917592542
+      PC Computer - The Binding of Isaac Rebirth - Isaac_424: -1154387817
+      PC Computer - The Binding of Isaac Rebirth - Isaac_425: -1489181554
+      PC Computer - The Binding of Isaac Rebirth - Isaac_426: 1027770950
+      PC Computer - The Binding of Isaac Rebirth - Isaac_427: -1763555978
+      PC Computer - The Binding of Isaac Rebirth - Isaac_428: -1218133074
+      PC Computer - The Binding of Isaac Rebirth - Isaac_429: -1204983462
+      PC Computer - The Binding of Isaac Rebirth - Isaac_43: -1241233422
+      PC Computer - The Binding of Isaac Rebirth - Isaac_430: -1800287362
+      PC Computer - The Binding of Isaac Rebirth - Isaac_431: 1939942770
+      PC Computer - The Binding of Isaac Rebirth - Isaac_432: 979456043
+      PC Computer - The Binding of Isaac Rebirth - Isaac_433: 415263606
+      PC Computer - The Binding of Isaac Rebirth - Isaac_434: 9502702
+      PC Computer - The Binding of Isaac Rebirth - Isaac_435: 137427174
+      PC Computer - The Binding of Isaac Rebirth - Isaac_436: 3780613
+      PC Computer - The Binding of Isaac Rebirth - Isaac_437: 1483737087
+      PC Computer - The Binding of Isaac Rebirth - Isaac_438: 678093673
+      PC Computer - The Binding of Isaac Rebirth - Isaac_439: 1139453634
+      PC Computer - The Binding of Isaac Rebirth - Isaac_44: 1487057758
+      PC Computer - The Binding of Isaac Rebirth - Isaac_440: 1129986221
+      PC Computer - The Binding of Isaac Rebirth - Isaac_441: -1058152464
+      PC Computer - The Binding of Isaac Rebirth - Isaac_442: -598941261
+      PC Computer - The Binding of Isaac Rebirth - Isaac_443: -923419656
+      PC Computer - The Binding of Isaac Rebirth - Isaac_444: -1644239212
+      PC Computer - The Binding of Isaac Rebirth - Isaac_445: -363930597
+      PC Computer - The Binding of Isaac Rebirth - Isaac_446: -675044385
+      PC Computer - The Binding of Isaac Rebirth - Isaac_447: 2129286441
+      PC Computer - The Binding of Isaac Rebirth - Isaac_448: 159041513
+      PC Computer - The Binding of Isaac Rebirth - Isaac_449: -1306218289
+      PC Computer - The Binding of Isaac Rebirth - Isaac_45: 531415108
+      PC Computer - The Binding of Isaac Rebirth - Isaac_450: -812637697
+      PC Computer - The Binding of Isaac Rebirth - Isaac_451: -1673365453
+      PC Computer - The Binding of Isaac Rebirth - Isaac_452: -1202815468
+      PC Computer - The Binding of Isaac Rebirth - Isaac_453: -597735694
+      PC Computer - The Binding of Isaac Rebirth - Isaac_454: 1356439193
+      PC Computer - The Binding of Isaac Rebirth - Isaac_455: -2159320
+      PC Computer - The Binding of Isaac Rebirth - Isaac_456: 239605294
+      PC Computer - The Binding of Isaac Rebirth - Isaac_457: 903847057
+      PC Computer - The Binding of Isaac Rebirth - Isaac_458: -1638974493
+      PC Computer - The Binding of Isaac Rebirth - Isaac_459: -876005834
+      PC Computer - The Binding of Isaac Rebirth - Isaac_46: -56918378
+      PC Computer - The Binding of Isaac Rebirth - Isaac_460: 2136576949
+      PC Computer - The Binding of Isaac Rebirth - Isaac_461: 1263687973
+      PC Computer - The Binding of Isaac Rebirth - Isaac_462: 1813938987
+      PC Computer - The Binding of Isaac Rebirth - Isaac_463: 694783093
+      PC Computer - The Binding of Isaac Rebirth - Isaac_464: -800406959
+      PC Computer - The Binding of Isaac Rebirth - Isaac_465: -752468251
+      PC Computer - The Binding of Isaac Rebirth - Isaac_466: 991421433
+      PC Computer - The Binding of Isaac Rebirth - Isaac_467: -1935453048
+      PC Computer - The Binding of Isaac Rebirth - Isaac_468: 1689659743
+      PC Computer - The Binding of Isaac Rebirth - Isaac_469: 2128011999
+      PC Computer - The Binding of Isaac Rebirth - Isaac_47: 951481723
+      PC Computer - The Binding of Isaac Rebirth - Isaac_470: 19980621
+      PC Computer - The Binding of Isaac Rebirth - Isaac_471: -1928681033
+      PC Computer - The Binding of Isaac Rebirth - Isaac_472: -957845179
+      PC Computer - The Binding of Isaac Rebirth - Isaac_473: 1644133211
+      PC Computer - The Binding of Isaac Rebirth - Isaac_474: -1556246597
+      PC Computer - The Binding of Isaac Rebirth - Isaac_475: -1853620954
+      PC Computer - The Binding of Isaac Rebirth - Isaac_476: -1041361332
+      PC Computer - The Binding of Isaac Rebirth - Isaac_477: -564941416
+      PC Computer - The Binding of Isaac Rebirth - Isaac_478: 1826762905
+      PC Computer - The Binding of Isaac Rebirth - Isaac_479: 1706714272
+      PC Computer - The Binding of Isaac Rebirth - Isaac_48: 963045323
+      PC Computer - The Binding of Isaac Rebirth - Isaac_480: -1335080073
+      PC Computer - The Binding of Isaac Rebirth - Isaac_481: 493056336
+      PC Computer - The Binding of Isaac Rebirth - Isaac_482: -950989785
+      PC Computer - The Binding of Isaac Rebirth - Isaac_483: -273384792
+      PC Computer - The Binding of Isaac Rebirth - Isaac_484: -1573536355
+      PC Computer - The Binding of Isaac Rebirth - Isaac_485: -2105682388
+      PC Computer - The Binding of Isaac Rebirth - Isaac_486: 1168974182
+      PC Computer - The Binding of Isaac Rebirth - Isaac_487: 1078467470
+      PC Computer - The Binding of Isaac Rebirth - Isaac_488: -5439001
+      PC Computer - The Binding of Isaac Rebirth - Isaac_489: 132280975
+      PC Computer - The Binding of Isaac Rebirth - Isaac_49: -2014587828
+      PC Computer - The Binding of Isaac Rebirth - Isaac_490: -1604560454
+      PC Computer - The Binding of Isaac Rebirth - Isaac_491: 1649679081
+      PC Computer - The Binding of Isaac Rebirth - Isaac_492: -636118683
+      PC Computer - The Binding of Isaac Rebirth - Isaac_493: 2080421380
+      PC Computer - The Binding of Isaac Rebirth - Isaac_494: -541886955
+      PC Computer - The Binding of Isaac Rebirth - Isaac_495: 1482999855
+      PC Computer - The Binding of Isaac Rebirth - Isaac_496: 1576860783
+      PC Computer - The Binding of Isaac Rebirth - Isaac_497: 1321541271
+      PC Computer - The Binding of Isaac Rebirth - Isaac_498: -730213390
+      PC Computer - The Binding of Isaac Rebirth - Isaac_499: 2086479201
+      PC Computer - The Binding of Isaac Rebirth - Isaac_5: -689580461
+      PC Computer - The Binding of Isaac Rebirth - Isaac_50: -654179143
+      PC Computer - The Binding of Isaac Rebirth - Isaac_500: -1715473546
+      PC Computer - The Binding of Isaac Rebirth - Isaac_501: -1925064487
+      PC Computer - The Binding of Isaac Rebirth - Isaac_502: -489266679
+      PC Computer - The Binding of Isaac Rebirth - Isaac_503: -1185920347
+      PC Computer - The Binding of Isaac Rebirth - Isaac_504: 1480621042
+      PC Computer - The Binding of Isaac Rebirth - Isaac_505: 1361495404
+      PC Computer - The Binding of Isaac Rebirth - Isaac_506: -1595450568
+      PC Computer - The Binding of Isaac Rebirth - Isaac_507: -1879265158
+      PC Computer - The Binding of Isaac Rebirth - Isaac_508: -1442130872
+      PC Computer - The Binding of Isaac Rebirth - Isaac_509: 2053521560
+      PC Computer - The Binding of Isaac Rebirth - Isaac_51: -135926329
+      PC Computer - The Binding of Isaac Rebirth - Isaac_510: -908913050
+      PC Computer - The Binding of Isaac Rebirth - Isaac_511: 225284811
+      PC Computer - The Binding of Isaac Rebirth - Isaac_512: -410678062
+      PC Computer - The Binding of Isaac Rebirth - Isaac_513: -50156254
+      PC Computer - The Binding of Isaac Rebirth - Isaac_514: -1475622727
+      PC Computer - The Binding of Isaac Rebirth - Isaac_515: 1442621442
+      PC Computer - The Binding of Isaac Rebirth - Isaac_516: 1209572359
+      PC Computer - The Binding of Isaac Rebirth - Isaac_517: -1745347915
+      PC Computer - The Binding of Isaac Rebirth - Isaac_518: 1637387825
+      PC Computer - The Binding of Isaac Rebirth - Isaac_519: -207801715
+      PC Computer - The Binding of Isaac Rebirth - Isaac_52: -856379931
+      PC Computer - The Binding of Isaac Rebirth - Isaac_520: -1884787640
+      PC Computer - The Binding of Isaac Rebirth - Isaac_53: -218931410
+      PC Computer - The Binding of Isaac Rebirth - Isaac_54: -1195914089
+      PC Computer - The Binding of Isaac Rebirth - Isaac_55: -1481450010
+      PC Computer - The Binding of Isaac Rebirth - Isaac_56: -429913522
+      PC Computer - The Binding of Isaac Rebirth - Isaac_57: 1859730809
+      PC Computer - The Binding of Isaac Rebirth - Isaac_58: 1269050933
+      PC Computer - The Binding of Isaac Rebirth - Isaac_59: 1278409032
+      PC Computer - The Binding of Isaac Rebirth - Isaac_6: -2070626589
+      PC Computer - The Binding of Isaac Rebirth - Isaac_60: -1710500856
+      PC Computer - The Binding of Isaac Rebirth - Isaac_61: 1151868682
+      PC Computer - The Binding of Isaac Rebirth - Isaac_62: 1710587866
+      PC Computer - The Binding of Isaac Rebirth - Isaac_63: -1484541596
+      PC Computer - The Binding of Isaac Rebirth - Isaac_64: -1379201027
+      PC Computer - The Binding of Isaac Rebirth - Isaac_65: -1960818902
+      PC Computer - The Binding of Isaac Rebirth - Isaac_66: 170705699
+      PC Computer - The Binding of Isaac Rebirth - Isaac_67: 1505353376
+      PC Computer - The Binding of Isaac Rebirth - Isaac_68: -1922154531
+      PC Computer - The Binding of Isaac Rebirth - Isaac_69: 728076873
+      PC Computer - The Binding of Isaac Rebirth - Isaac_7: 2046879550
+      PC Computer - The Binding of Isaac Rebirth - Isaac_70: 1465136281
+      PC Computer - The Binding of Isaac Rebirth - Isaac_71: 1378116271
+      PC Computer - The Binding of Isaac Rebirth - Isaac_72: -1461781366
+      PC Computer - The Binding of Isaac Rebirth - Isaac_73: 1865512396
+      PC Computer - The Binding of Isaac Rebirth - Isaac_74: 1489825886
+      PC Computer - The Binding of Isaac Rebirth - Isaac_75: 236201020
+      PC Computer - The Binding of Isaac Rebirth - Isaac_76: -553411759
+      PC Computer - The Binding of Isaac Rebirth - Isaac_77: 1490741711
+      PC Computer - The Binding of Isaac Rebirth - Isaac_78: 571717342
+      PC Computer - The Binding of Isaac Rebirth - Isaac_79: -281660037
+      PC Computer - The Binding of Isaac Rebirth - Isaac_8: 1071656892
+      PC Computer - The Binding of Isaac Rebirth - Isaac_80: -1669844010
+      PC Computer - The Binding of Isaac Rebirth - Isaac_81: 512852597
+      PC Computer - The Binding of Isaac Rebirth - Isaac_82: -2118476171
+      PC Computer - The Binding of Isaac Rebirth - Isaac_83: -644802765
+      PC Computer - The Binding of Isaac Rebirth - Isaac_84: -132546346
+      PC Computer - The Binding of Isaac Rebirth - Isaac_85: 2042128208
+      PC Computer - The Binding of Isaac Rebirth - Isaac_86: -1852785618
+      PC Computer - The Binding of Isaac Rebirth - Isaac_87: 1418175978
+      PC Computer - The Binding of Isaac Rebirth - Isaac_88: -13747645
+      PC Computer - The Binding of Isaac Rebirth - Isaac_89: 1165048904
+      PC Computer - The Binding of Isaac Rebirth - Isaac_9: -2042077192
+      PC Computer - The Binding of Isaac Rebirth - Isaac_90: -650128550
+      PC Computer - The Binding of Isaac Rebirth - Isaac_91: 638944928
+      PC Computer - The Binding of Isaac Rebirth - Isaac_92: 1341905284
+      PC Computer - The Binding of Isaac Rebirth - Isaac_93: 1795020709
+      PC Computer - The Binding of Isaac Rebirth - Isaac_94: 11976427
+      PC Computer - The Binding of Isaac Rebirth - Isaac_95: 1524963281
+      PC Computer - The Binding of Isaac Rebirth - Isaac_96: 245696556
+      PC Computer - The Binding of Isaac Rebirth - Isaac_97: -1298418328
+      PC Computer - The Binding of Isaac Rebirth - Isaac_98: 1699150009
+      PC Computer - The Binding of Isaac Rebirth - Isaac_99: -1285334002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
