@@ -8,10 +8,6 @@ public class Tear : Isaac_Stat
     Vector2 vecUper;
     Rigidbody2D rb;
 
-    Vector2 oldPosition;
-    Vector2 currentPostion;
-    Vector2 velocity;
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -19,12 +15,7 @@ public class Tear : Isaac_Stat
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + vecUper * ShotSpeed * 2.0f * Time.deltaTime);
-
-        currentPostion = transform.position;
-        var dis = (currentPostion - oldPosition);
-        velocity = dis / Time.deltaTime;        
-        oldPosition = currentPostion;
+        rb.MovePosition(rb.position + vecUper * ShotSpeed * 4.0f * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

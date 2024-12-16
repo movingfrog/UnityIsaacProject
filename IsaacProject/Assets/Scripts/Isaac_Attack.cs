@@ -1,95 +1,74 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Isaac_Attack : Isaac_Stat
 {
-    Rigidbody2D rb;
-    Vector2 oldPosition;
-    Vector2 currentPostion;
-    Vector2 velocity;
+    public GameObject Tear;
 
-    public GameObject TearObject;
-    public bool isShooting;
-    public bool isHoldShooting;
+    private float uperTime = 0;
+    private float compareColTime;
 
-    public float colTime;
-    public float compareColTime;
+    Animator ani;
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        ani = GetComponent<Animator>();
         compareColTime = maxTears / (Tears + TearUper) * 0.02f;
-        colTime = compareColTime;
-        Debug.Log(compareColTime);
-    }
-    private void Start()
-    {
-        oldPosition = transform.position;
-    }
-
-    void OnAttack(InputValue value)
-    {
-        Vector2 input = value.Get<Vector2>();
-
-        if (input.x != 0 || input.y != 0)
-        {
-            if (!isShooting && colTime >= compareColTime)
-            {
-                FireTear(input); // 한번 공격
-                isShooting = true;
-                isHoldShooting = true; // 꾹 누름 상태
-                StartCoroutine(GenerateTear(input)); // 꾹 누르면 지속 공격
-            }
-        }
-        else
-        {
-            isHoldShooting = false; // 공격 중지
-        }
-        Debug.Log(colTime);
-    }
-
-    IEnumerator GenerateTear(Vector2 input)
-    {
-        while (isHoldShooting)
-        {
-            if (colTime >= compareColTime) // 쿨타임 체크
-            {
-                FireTear(input); // 쿨타임에 따라 공격
-                colTime = 0.0f;
-            }
-            yield return new WaitForSeconds(compareColTime); // 쿨타임 기다림
-        }
-        isShooting = false; // 공격 종료
-    }
-
-    void FireTear(Vector2 input)
-    {
-        GameObject tears_C = Instantiate(TearObject, transform.position + new Vector3(input.x, input.y, 0), Quaternion.Euler(0, 0, 0));
-        Tear tear = tears_C.GetComponent<Tear>();
-        tear.HO(input, velocity / 10.0f);
-        Destroy(tears_C, Range / 2);
-    }
-
-    private void FixedUpdate()
-    {
-        currentPostion = transform.position;
-        var dis = (currentPostion - oldPosition);
-        velocity = dis / Time.deltaTime;
-        oldPosition = currentPostion;
     }
 
     private void Update()
     {
-
-        if (colTime < compareColTime)
+        if(uperTime >= compareColTime)
         {
-            colTime += Time.deltaTime; // 쿨타임 증가
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                TearSpawn(Vector2.up);
+                ani.SetBool("isAttack", true);
+                ani.SetTrigger("isattack");
+                ani.SetFloat("InputY", 1);
+            }
+            else if(Input.GetKey(KeyCode.DownArrow))
+            {
+                TearSpawn(Vector2.down);
+                ani.SetBool("isAttack", true);
+                ani.SetTrigger("isattack");
+                ani.SetFloat("InputY", -1);
+            }
+            else if(Input.GetKey(KeyCode.LeftArrow))
+            {
+                TearSpawn(Vector2.left);
+                ani.SetTrigger("isattack");
+                ani.SetBool("isAttack", true);
+                ani.SetFloat("InputX", -1);
+            }
+            else if (Input.GetKey(KeyCode.RightArrow))
+            {
+                TearSpawn(Vector2.right);
+                ani.SetBool("isAttack", true);
+                ani.SetTrigger("isattack");
+                ani.SetFloat("InputX", 1);
+            }
+            else
+            {
+                ani.SetBool("isAttack", false);
+                ani.SetFloat("InputX", 0);
+                ani.SetFloat("InputY", 0);
+            }
         }
-
-        if (Keyboard.current.anyKey.wasReleasedThisFrame)
+        else
         {
-            isHoldShooting = false; // 키가 떼어졌을 때 공격 중지
+            uperTime += Time.deltaTime;
         }
     }
+
+    public void TearSpawn(Vector2 vec)
+    {
+        uperTime = 0;
+        GameObject clone = Instantiate(Tear, transform.position + new Vector3(vec.x, vec.y, 0), new Quaternion(0,0,0,0));
+        Tear tear = clone.GetComponent<Tear>();
+        tear.HO(vec, Vector2.zero);
+        Destroy(clone, Range / 4);
+    }
+
 }

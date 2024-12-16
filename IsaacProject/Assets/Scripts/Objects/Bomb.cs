@@ -25,21 +25,14 @@ public class Bomb : MonoBehaviour
 
     IEnumerator Boom()
     {
-        child.SetActive(true);
-
-        child.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 0.55f);
         gameObject.transform.localScale = new Vector3(1.2f, 1.0f, 1.0f);
         yield return new WaitForSeconds(boomTimeX5);
-        child.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.55f);
         gameObject.transform.localScale = new Vector3(1.0f,1.2f, 1.0f);
         yield return new WaitForSeconds(boomTimeX5);
-        child.GetComponent<SpriteRenderer>().color = new Color(1, 0.92f, 0.016f, 0.55f);
         gameObject.transform.localScale = new Vector3(1.2f, 1.0f, 1.0f);
         yield return new WaitForSeconds(boomTimeX5);
-        child.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 0.55f);
         gameObject.transform.localScale = new Vector3(1.0f,1.2f, 1.0f);
         yield return new WaitForSeconds(boomTimeX5);
-        child.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.55f);
         gameObject.transform.localScale = new Vector3(1.2f, 1.0f, 1.0f);
         yield return new WaitForSeconds(boomTimeX5);
         KaBoom();

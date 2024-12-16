@@ -283,9 +283,11 @@ GameObject:
   m_Component:
   - component: {fileID: 420471836}
   - component: {fileID: 420471837}
+  - component: {fileID: 420471838}
+  - component: {fileID: 420471839}
   m_Layer: 0
-  m_Name: PC Computer - The Binding of Isaac Rebirth - Isaac_12
-  m_TagString: Untagged
+  m_Name: Isaac_Head
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -357,6 +359,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &420471838
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420471835}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0ab2d4c99aaf9264fa0739670db6d27e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &420471839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420471835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd85316790e347747ba8cb2b6d7cf2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tear: {fileID: 5932493505998040890, guid: 5a7260b41986ca84f9efc2eb1c8e0601, type: 3}
 --- !u!1 &507396767
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,9 +659,15 @@ GameObject:
   m_Component:
   - component: {fileID: 586634648}
   - component: {fileID: 586634647}
+  - component: {fileID: 586634654}
+  - component: {fileID: 586634653}
+  - component: {fileID: 586634652}
+  - component: {fileID: 586634651}
+  - component: {fileID: 586634650}
+  - component: {fileID: 586634649}
   m_Layer: 0
-  m_Name: PC Computer - The Binding of Isaac Rebirth - Isaac_41
-  m_TagString: Untagged
+  m_Name: Isaac_Body
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -691,13 +733,142 @@ Transform:
   m_GameObject: {fileID: 586634646}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.66, y: 2.448, z: 0}
+  m_LocalPosition: {x: -2.69, y: 2.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 420471836}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &586634649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586634646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd7800b254f1dd14e900859ac84913bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &586634650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586634646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ce7c9bb804aab46916e3d3da53dc94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bomb: {fileID: 6923438372329531483, guid: a635e49765cb0ac4083bd852e6649587, type: 3}
+--- !u!114 &586634651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586634646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: bc89ad96f51e15149935990713fc1486, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: PC
+  m_DefaultActionMap: PlayerAction
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &586634652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586634646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86975a81f1f122d439b01d1c7596d1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &586634653
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586634646}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.55, y: 0.4}
+  m_Direction: 1
+--- !u!50 &586634654
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586634646}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 7
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,7 +1043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &993117648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -885,11 +1056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd85316790e347747ba8cb2b6d7cf2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TearObject: {fileID: 5932493505998040890, guid: 5a7260b41986ca84f9efc2eb1c8e0601, type: 3}
-  isShooting: 0
-  isHoldShooting: 0
-  colTime: 0
-  compareColTime: 0
+  Tear: {fileID: 0}
 --- !u!114 &993117649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,7 +1867,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 993117653}
   - {fileID: 534735749}
   - {fileID: 52340123}
   - {fileID: 824556120}
@@ -1713,3 +1879,4 @@ SceneRoots:
   - {fileID: 2279414547675334399}
   - {fileID: 6065424884282625081}
   - {fileID: 586634648}
+  - {fileID: 993117653}
