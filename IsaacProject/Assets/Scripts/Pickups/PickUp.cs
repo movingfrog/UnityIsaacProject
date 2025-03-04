@@ -9,7 +9,7 @@ public abstract class PickUp : MonoBehaviour
     public static int Bomb;
     public static int Key;
 
-    protected void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {

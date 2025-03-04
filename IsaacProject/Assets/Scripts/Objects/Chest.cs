@@ -6,10 +6,8 @@ public enum PChest
     B = 1,
     C = 2,
     H = 3,
-    CA = 4,
-    Pil = 5,
-    T = 6,
-    I = 7,
+    Pil = 4,
+    I = 5,
 }
 
 public class Chest : MonoBehaviour
@@ -24,8 +22,8 @@ public class Chest : MonoBehaviour
     private void Start()
     {
         GChest = gameObject.CompareTag("GChest");
-        quantity = GChest ? Random.Range(2, 8) : Random.Range(1, 5);
-        Type = Random.Range(1, GChest ? 5 : 4);
+        quantity = GChest ? Random.Range(2, 7) : Random.Range(1, 5);
+        Type = Random.Range(1, GChest ? 4 : 3);
 
     }
     public void SpawnPItem(PChest Type)
@@ -69,19 +67,11 @@ public class Chest : MonoBehaviour
                     }
                     break;
                 case 2:
-                    if(Random.Range(0,2) == 1&&GChest)
-                        pChest = PChest.CA;
-                    else
-                        pChest = PChest.Pil;
+                    pChest = PChest.Pil;
                     SpawnPItem(pChest);
                     Debug.Log("아이템소환");
                     break;
                 case 3:
-                    pChest = PChest.T;
-                    SpawnPItem(pChest);
-                    Debug.Log("아이템소환");
-                    break;
-                case 4:
                     pChest = PChest.I;
                     SpawnPItem(pChest);
                     Debug.Log("아이템소환");

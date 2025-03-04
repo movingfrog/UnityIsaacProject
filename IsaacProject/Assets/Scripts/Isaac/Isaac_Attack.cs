@@ -1,15 +1,17 @@
-using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Isaac_Attack : Isaac_Stat
 {
+    [Header("Tear")]
     public GameObject Tear;
 
     private float uperTime = 0;
     private float compareColTime;
 
     Animator ani;
+
+    [Header("MoveAni")]
+    public Sprite[] sprite = new Sprite[4];
 
     private void Awake()
     {
@@ -24,34 +26,25 @@ public class Isaac_Attack : Isaac_Stat
             if (Input.GetKey(KeyCode.UpArrow))
             {
                 TearSpawn(Vector2.up);
-                ani.SetBool("isAttack", true);
-                ani.SetTrigger("isattack");
                 ani.SetFloat("InputY", 1);
             }
             else if(Input.GetKey(KeyCode.DownArrow))
             {
                 TearSpawn(Vector2.down);
-                ani.SetBool("isAttack", true);
-                ani.SetTrigger("isattack");
                 ani.SetFloat("InputY", -1);
             }
             else if(Input.GetKey(KeyCode.LeftArrow))
             {
                 TearSpawn(Vector2.left);
-                ani.SetTrigger("isattack");
-                ani.SetBool("isAttack", true);
                 ani.SetFloat("InputX", -1);
             }
             else if (Input.GetKey(KeyCode.RightArrow))
             {
                 TearSpawn(Vector2.right);
-                ani.SetBool("isAttack", true);
-                ani.SetTrigger("isattack");
                 ani.SetFloat("InputX", 1);
             }
             else
             {
-                ani.SetBool("isAttack", false);
                 ani.SetFloat("InputX", 0);
                 ani.SetFloat("InputY", 0);
             }
@@ -59,6 +52,29 @@ public class Isaac_Attack : Isaac_Stat
         else
         {
             uperTime += Time.deltaTime;
+        }
+    }
+
+    public void Move(Vector2 vec)
+    {
+        SpriteRenderer sp = GetComponent<SpriteRenderer>();
+        ani.enabled = false;
+        if(vec.y < 0 || (vec.y == 0 && vec.x == 0))
+        {
+            sp.sprite = sprite[0];
+            ani.enabled = true;
+        }
+        else if(vec.y > 0)
+        {
+            sp.sprite = sprite[1];
+        }
+        else if(vec.x < 0)
+        {
+            sp.sprite = sprite[2];
+        }
+        else if(vec.x > 0)
+        {
+            sp.sprite = sprite[3];
         }
     }
 
@@ -70,5 +86,4 @@ public class Isaac_Attack : Isaac_Stat
         tear.HO(vec, Vector2.zero);
         Destroy(clone, Range / 4);
     }
-
 }
