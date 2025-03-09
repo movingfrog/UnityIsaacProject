@@ -21,6 +21,7 @@ public abstract class PickUp : MonoBehaviour
     protected virtual void PickUpItem()
     {
         transform.localScale = new Vector3(3f, 0.2f, 1f);
+        Destroy(gameObject.GetComponent<Collider2D>());
     }
 
     protected abstract void OnDestroy();

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Isaac_Controller : Isaac_Stat
+public class Isaac_Controller : MonoBehaviour
 {
     Rigidbody2D rb;
     Animator ani;
@@ -23,7 +23,7 @@ public class Isaac_Controller : Isaac_Stat
         bool isControl = (moveDirection != Vector2.zero);
         if (isControl)
         {
-            rb.velocity += moveDirection * Speed;
+            rb.velocity += moveDirection * Isaac_Stat.Instance.Speed;
         }
     }
 

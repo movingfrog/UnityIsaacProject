@@ -1,21 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PPill : PickUp
+public class PPill : MonoBehaviour
 {
-    protected override void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            PickUpItem();
-            collision.GetComponent<UseItem>().ItemUp(gameObject.GetComponent<SpriteRenderer>().sprite);
+            transform.localScale = new Vector3(3f, 0.2f, 1f);
+            Destroy(gameObject.GetComponent<Collider2D>());
+            collision.gameObject.GetComponent<UseItem>().ItemUp(gameObject.GetComponent<SpriteRenderer>().sprite, 0.4f);
+            collision.gameObject.GetComponent<UseItem>().changeItem(gameObject);
             Destroy(gameObject, 0.3f);
         }
     }
-
-    protected override void OnDestroy()
+    private void OnDestroy()
     {
-        
+        UIManager.Instance.Pill.gameObject.SetActive(true);
     }
 }

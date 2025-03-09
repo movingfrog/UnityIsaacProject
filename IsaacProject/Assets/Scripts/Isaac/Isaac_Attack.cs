@@ -1,22 +1,23 @@
 using UnityEngine;
 
-public class Isaac_Attack : Isaac_Stat
+public class Isaac_Attack : MonoBehaviour
 {
     [Header("Tear")]
     public GameObject Tear;
 
     private float uperTime = 0;
-    private float compareColTime;
+    public static float compareColTime;
 
     Animator ani;
 
     [Header("MoveAni")]
     public Sprite[] sprite = new Sprite[4];
 
-    private void Awake()
+    private void Start()
     {
         ani = GetComponent<Animator>();
-        compareColTime = maxTears / (Tears + TearUper) * 0.02f;
+        Isaac_Stat.Instance.ResetAttackRate();
+        Debug.Log(compareColTime);
     }
 
     private void Update()
@@ -84,6 +85,6 @@ public class Isaac_Attack : Isaac_Stat
         GameObject clone = Instantiate(Tear, transform.position + new Vector3(vec.x, vec.y, 0), new Quaternion(0,0,0,0));
         Tear tear = clone.GetComponent<Tear>();
         tear.HO(vec, Vector2.zero);
-        Destroy(clone, Range / 4);
+        Destroy(clone, Isaac_Stat.Instance.Range / 4);
     }
 }

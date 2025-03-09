@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Tear : Isaac_Stat
+public class Tear : MonoBehaviour
 {
     public static bool isWallPenet;
     public static bool isEnemyPenet;
@@ -15,7 +15,7 @@ public class Tear : Isaac_Stat
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + vecUper * ShotSpeed * 4.0f * Time.deltaTime);
+        rb.MovePosition(rb.position + vecUper * Isaac_Stat.Instance.ShotSpeed * 4.0f * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
